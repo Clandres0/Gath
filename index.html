@@ -1,67 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GathSession</title>
-<link rel="icon" type="image/svg+xml" href="">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
 <header class="header">
-  <div class="container nav">
-    <div class="logo">
-      <span class="accent">Gath</span>Session.
+    <div class="container nav">
+        <h2 class="logo">
+        <span class="accent">Gath</span>Session.
+        </h2>
+        <nav class="menu" aria-label="Navegación principal">
+            <a href="#">Inicio</a>
+            <a href="#">Secciones</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+            <a href="#">Sobre Nosotros</a>
+        </nav>
     </div>
-    <nav class="menu">
-      <a href="#">Inicio</a>
-      <a href="#">Secciones</a>
-      <a href="#">Blog</a>
-      <a href="#">Contacto</a>
-      <a href="#">Sobre Nosotros</a>
-    </nav>
-  </div>
 </header>
-
+<main>
 <section class="hero">
-    <div class="container hero-container">
+  <div class="container hero-container">
+    <div class="hero-text">
+      <h1>
+        Construye lo mejor que puedas <br>
+        comunidad <br>
+        empezando desde aquí.
+      </h1>
 
-        <div class="hero-text">
-            <h1>Construye lo mejor que puedas <br>comunidad <br>empezando desde aquí.</h1>
-            <p>Conozca y comuníquese con las mejores personas para ejecutar proyectos, eventos u otras actividades de una manera más efectiva y divertida..</p>
-            <div class="hero-buttons">
-                <a class="btn-primary" href="#">Empezemos</a>
-                <a class="btn-primary" href="#">Más información →</a>
-            </div>
-            <div class="features">
-                <div class="feature">
-                    <img src="img/chat-right-text.svg" alt="community icon">
-                    <span>Construir comunidad</span>
-                </div>
-                <div class="feature">
-                    <img src="img/calendar-day.svg" alt="events icon">
-                    <span>Compartir eventos</span>
-                </div>
-                <div class="feature">
-                    <img src="img/info-square.svg" alt="information icon">
-                    <span>Obtener información</span>
-                </div>
-            </div>
+      <p>
+        Conozca y comuníquese con las mejores personas para ejecutar proyectos,
+        eventos u otras actividades de una manera más efectiva y divertida.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn-primary" href="#">Empecemos</a>
+        <a class="btn-secondary" href="#">Más información →</a>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <div class="icon-box">
+            <img src="img/chat-right-text.svg" alt="Chat">
+          </div>
+          <span>Construir comunidad</span>
         </div>
-        <div class="hero-images">
-            <img class="img tall" src="img/person 1.svg" alt="">
-            <img class="img small" src="img/person 2.svg" alt="">
-            <img class="img tall" src="img/person 3.svg" alt="">
-            <img class="img small" src="img/person 5.svg" alt="">
-            <img class="img tall" src="img/person 4.svg" alt="">
+
+        <div class="feature">
+          <div class="icon-box">
+            <img src="img/calendar-day.svg" alt="Calendar">
+          </div>
+          <span>Compartir eventos</span>
         </div>
+
+        <div class="feature">
+          <div class="icon-box">
+            <img src="img/info-square.svg" alt="Information">
+          </div>
+          <span>Obtener información</span>
+        </div>
+      </div>
     </div>
 
-</section>
+    <div class="hero-images">
+      <img class="img tall" src="img/person1.svg" alt="Persona 1">
+      <img class="img small" src="img/person2.svg" alt="Persona 2">
+      <img class="img tall" src="img/person3.svg" alt="Persona 3">
+      <img class="img small" src="img/person5.svg" alt="Persona 5">
+      <img class="img tall" src="img/person4.svg" alt="Persona 4">
+    </div>
 
+  </div>
+</section>
+</main>
 </body>
 </html>
